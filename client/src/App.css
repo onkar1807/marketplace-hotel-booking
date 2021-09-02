@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ant-modal-footer {
+    display: none;
+}
+
+.ant-select-selector {
+    height: 50px !important;
+}
+
+.ant-select-selection-placeholder, .ant-select-selection-item {
+    margin-top: 5px;
+}
+
+.btn-square {
+    border-radius: 0;
+}
+
+
+@media (max-width: 766px) {
+    .search_bar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .search_bar .rangePicker {
+        min-height: 50px;
+        margin: 5px 0;
+    }
+
+    .search_bar .btn-square {
+        margin: 5px 0;
+    }
+}
+
