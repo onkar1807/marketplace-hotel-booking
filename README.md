@@ -1,4 +1,4 @@
-# Marketplace-Hotel-Booking
+# Marketplace-Hotel-Booking with Stripe API
 
 * React.js & Redux
 * Node
